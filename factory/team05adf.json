@@ -1,0 +1,9 @@
+{
+	"name": "team05adf",
+	"location": "southafricanorth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "916e1fee-a3ba-4e42-8a8b-f8cf5d94a332",
+		"tenantId": "097c38ce-ef7f-4596-a27a-9cad312d32e9"
+	}
+}

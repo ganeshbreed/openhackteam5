@@ -1,0 +1,21 @@
+{
+	"name": "DestinationDataset_rcq",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeTeam5",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Movies",
+				"fileSystem": "team5container"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
